@@ -117,36 +117,11 @@ export function ProjectsSection() {
         { label: "Query Safety", value: "Constraint-Based Validation" }
       ],
       links: [
-        { type: "github", href: "https://github.com/manikantaruppa/text-to-sql-system" },
-        { type: "details", href: "#" }
+        { type: "github", href: "https://github.com/manikantaruppa/text-to-sql-system" }
       ],
       category: "Agentic AI | Database Reasoning",
       featured: false,
-      isPrivate: false,
-      privateDetails: {
-        problemStatement: "Healthcare organizations struggled to extract insights from complex clinical databases. Non-technical staff (nurses, administrators, compliance officers) needed to request IT support for every data query, creating bottlenecks and delaying critical decisions. Average turnaround time for ad-hoc reports was 2-3 days.",
-        approach: [
-          "Built LLM-powered natural language interface allowing users to query databases using plain English questions",
-          "Implemented schema-aware prompting that understands healthcare data models (HL7 FHIR, patient records, claims data)",
-          "Designed query disambiguation system to handle ambiguous medical terminology and acronyms",
-          "Created constraint-based validation ensuring HIPAA-compliant queries (no unauthorized PHI access)",
-          "Added plain-English result summarization for non-technical stakeholders"
-        ],
-        challenges: [
-          "Handling complex medical terminology and abbreviations (solved with domain-specific entity recognition)",
-          "Ensuring query safety to prevent SQL injection and unauthorized data access",
-          "Optimizing for large healthcare datasets with millions of patient records",
-          "Balancing query accuracy with response latency for real-time analytics"
-        ],
-        results: [
-          "Reduced report generation time from 2-3 days to under 30 seconds",
-          "Enabled 150+ non-technical users to self-serve analytics without SQL knowledge",
-          "Achieved 94% query accuracy on complex multi-table healthcare joins",
-          "Maintained 100% HIPAA compliance with role-based access controls",
-          "Processed 10,000+ natural language queries monthly with <2s average response time"
-        ],
-        role: "Lead AI Engineer - Architected NL-to-SQL pipeline, implemented healthcare-specific optimizations, deployed HIPAA-compliant system"
-      }
+      isPrivate: false
     },
     {
       title: "RAG Studio — Multi-Domain RAG Platform",
