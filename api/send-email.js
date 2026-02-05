@@ -157,7 +157,7 @@ function createAutoReplyTemplate(firstName) {
 
             <div class="social-links">
               <p>Let's Connect:</p>
-              <a href="https://linkedin.com/in/manikanta-ruppa-496102217" target="_blank">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/manikanta-ruppa-496102217" target="_blank">LinkedIn</a>
               <a href="https://github.com/manikantaruppa" target="_blank">GitHub</a>
               <a href="https://medium.com/@manikantaruppa" target="_blank">Medium Blog</a>
               <a href="https://kaggle.com/manikantaruppa" target="_blank">Kaggle</a>
@@ -184,7 +184,7 @@ Thank you for getting in touch! I've received your message and truly appreciate 
 I'll review your message and get back to you within 24-48 hours. If your inquiry is urgent, feel free to connect with me directly on LinkedIn.
 
 Let's Connect:
-- LinkedIn: https://linkedin.com/in/manikanta-ruppa-496102217
+- LinkedIn: https://www.linkedin.com/in/manikanta-ruppa-496102217
 - GitHub: https://github.com/manikantaruppa
 - Medium: https://medium.com/@manikantaruppa
 - Kaggle: https://kaggle.com/manikantaruppa

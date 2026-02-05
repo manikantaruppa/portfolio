@@ -4,7 +4,7 @@ import { SiKaggle, SiX } from "react-icons/si";
 export const SOCIAL_LINKS = [
   {
     name: "LinkedIn",
-    url: "https://linkedin.com/in/manikanta-ruppa-496102217",
+    url: "https://www.linkedin.com/in/manikanta-ruppa-496102217",
     icon: Linkedin,
     label: "LinkedIn Profile"
   },

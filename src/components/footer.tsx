@@ -6,7 +6,7 @@ export function Footer() {
   const socialLinks = [
     {
       icon: <Linkedin className="text-xl" />,
-      href: "https://linkedin.com/in/manikanta-ruppa-496102217",
+      href: "https://www.linkedin.com/in/manikanta-ruppa-496102217",
       label: "LinkedIn"
     },
     {

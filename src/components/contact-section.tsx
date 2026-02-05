@@ -218,7 +218,7 @@ export function ContactSection() {
     {
       name: "LinkedIn",
       icon: <Linkedin className="text-blue-600 text-2xl" />,
-      href: "https://linkedin.com/in/manikanta-ruppa-496102217",
+      href: "https://www.linkedin.com/in/manikanta-ruppa-496102217",
       bgColor: "bg-blue-50 dark:bg-blue-900/20 hover:bg-blue-100 dark:hover:bg-blue-900/40"
     },
     {
