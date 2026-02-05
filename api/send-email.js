@@ -1,5 +1,5 @@
 // Vercel Serverless Function for Contact Form Email
-const nodemailer = require('nodemailer');
+import nodemailer from 'nodemailer';
 
 // Email validation regex
 const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -200,7 +200,7 @@ This is an automated response from my portfolio website.
 }
 
 // Main handler for Vercel serverless function
-module.exports = async function handler(req, res) {
+export default async function handler(req, res) {
   // Set CORS headers
   res.setHeader('Access-Control-Allow-Credentials', 'true');
   res.setHeader('Access-Control-Allow-Origin', '*');
@@ -288,4 +288,4 @@ module.exports = async function handler(req, res) {
       error: process.env.NODE_ENV === 'development' ? error.message : undefined
     });
   }
-};
+}
