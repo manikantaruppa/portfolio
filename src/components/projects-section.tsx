@@ -358,22 +358,6 @@ export function ProjectsSection() {
       featured: false,
       isPrivate: false
     },
-    {
-      title: "News Intelligence Agent",
-      description: "Autonomous AI agent that ingests, filters, summarizes, and analyzes real-time news with multi-source ingestion, topic-aware summarization, and noise reduction via agent collaboration.",
-      image: "https://images.unsplash.com/photo-1504711434969-e33886168f5c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
-      tech: ["LLMs", "RAG", "Agentic AI", "Python"],
-      metrics: [
-        { label: "Sources", value: "Multi-Source Ingestion" },
-        { label: "Noise Reduction", value: "Agent Collaboration" }
-      ],
-      links: [
-        { type: "github", href: "https://github.com/manikantaruppa/news-intelligence-agent" }
-      ],
-      category: "Autonomous AI Agent | Information Synthesis",
-      featured: false,
-      isPrivate: false
-    }
   ];
 
   const getIcon = (type: string) => {
