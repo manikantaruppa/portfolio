@@ -62,7 +62,7 @@ function AboutSectionComponent() {
 
   return (
     <section ref={sectionRef} id="about" className="relative py-20 lg:py-24 bg-white dark:bg-slate-950">
-      <div className="max-w-7xl xl:max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-12 xl:px-10">
+      <div className="max-w-[92%] lg:max-w-6xl xl:max-w-7xl 2xl:max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-10 xl:px-12">
 
         {/* SECTION HEADER */}
         <div ref={headerRef} className="text-center mb-12">
