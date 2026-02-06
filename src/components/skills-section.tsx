@@ -79,7 +79,7 @@ export function SkillsSection() {
 
   return (
     <section id="skills" className="pt-12 pb-20 lg:pt-16 lg:pb-24 bg-white dark:bg-slate-950">
-      <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+      <div className="max-w-[1400px] mx-auto px-6 sm:px-8 lg:px-10 xl:px-8">
 
         {/* SECTION HEADER */}
         <div ref={headerRef} className="text-center mb-12">

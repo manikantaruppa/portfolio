@@ -33,7 +33,7 @@ export function Footer() {
 
   return (
     <footer className="bg-slate-900 text-slate-300 py-12">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-[1400px] mx-auto px-6 sm:px-8 lg:px-10 xl:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
