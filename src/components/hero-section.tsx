@@ -44,7 +44,7 @@ export function HeroSection() {
         <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-purple-500/5 rounded-full blur-3xl" />
       </div>
 
-      <div className="relative w-full max-w-[92%] lg:max-w-6xl xl:max-w-7xl 2xl:max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-10 xl:px-12">
+      <div className="relative w-full max-w-[92%] lg:max-w-[85%] xl:max-w-7xl 2xl:max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12">
 
         {/* Welcome Badge */}
         <motion.div

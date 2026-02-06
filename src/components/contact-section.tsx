@@ -243,7 +243,7 @@ export function ContactSection() {
 
   return (
     <section id="contact" className="pt-12 pb-20 lg:pt-16 lg:pb-24 bg-slate-50 dark:bg-slate-950">
-      <div className="max-w-[92%] lg:max-w-6xl xl:max-w-7xl 2xl:max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-10 xl:px-12">
+      <div className="max-w-[92%] lg:max-w-[85%] xl:max-w-7xl 2xl:max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12">
         {/* SECTION HEADER */}
         <div ref={headerRef} className="text-center mb-12">
           <motion.div
