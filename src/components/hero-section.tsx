@@ -60,7 +60,7 @@ export function HeroSection() {
         </motion.div>
 
         {/* Two Column Layout */}
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-start">
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 2xl:gap-12 items-start">
 
           {/* LEFT - Text Content */}
           <motion.div
@@ -72,7 +72,7 @@ export function HeroSection() {
             {/* Top Section */}
             <div className="space-y-6">
               {/* Main Heading */}
-              <h1 className="text-6xl sm:text-7xl lg:text-[5.5rem] font-black text-slate-900 dark:text-white leading-[0.9]">
+              <h1 className="text-6xl sm:text-7xl lg:text-[5.5rem] 2xl:text-[6rem] font-black text-slate-900 dark:text-white leading-[0.9]">
                 Hi, I'm <br />
                 <span className="bg-gradient-to-r from-primary via-blue-600 to-purple-600 bg-clip-text text-transparent">
                   Manikanta
@@ -81,16 +81,16 @@ export function HeroSection() {
 
               {/* Role Title */}
               <div>
-                <p className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 dark:text-white mb-1">
+                <p className="text-2xl sm:text-3xl lg:text-4xl 2xl:text-[2.75rem] font-bold text-slate-900 dark:text-white mb-1">
                   Senior Data Scientist
                 </p>
-                <p className="text-lg sm:text-xl lg:text-2xl text-slate-600 dark:text-slate-400 font-semibold">
+                <p className="text-lg sm:text-xl lg:text-2xl 2xl:text-[1.625rem] text-slate-600 dark:text-slate-400 font-semibold">
                   GenAI Engineer • Agentic AI Specialist
                 </p>
               </div>
 
               {/* Description */}
-              <p className="text-base sm:text-lg text-slate-600 dark:text-slate-400 leading-relaxed max-w-lg">
+              <p className="text-base sm:text-lg 2xl:text-xl text-slate-600 dark:text-slate-400 leading-relaxed max-w-lg">
                 Building <span className="font-bold text-slate-900 dark:text-white">production-grade AI systems</span> that solve real business problems.
                 Specialized in <span className="font-bold text-primary">LLMs, RAG, and Agentic AI</span> for enterprise.
               </p>
