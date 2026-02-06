@@ -200,7 +200,7 @@ export function BlogSection() {
 
   return (
     <section id="blog" className="pt-12 pb-20 lg:pt-16 lg:pb-24 bg-slate-50 dark:bg-slate-950">
-      <div className="max-w-[1400px] mx-auto px-6 sm:px-8 lg:px-10 xl:px-8">
+      <div className="max-w-7xl xl:max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-12 xl:px-10">
         {/* SECTION HEADER */}
         <div ref={headerRef} className="text-center mb-12">
           <motion.div

@@ -87,7 +87,7 @@ export function ResumeSection() {
 
   return (
     <section id="resume" className="pt-12 pb-20 lg:pt-16 lg:pb-24 bg-white dark:bg-slate-900">
-      <div className="max-w-[1400px] mx-auto px-6 sm:px-8 lg:px-10 xl:px-8">
+      <div className="max-w-7xl xl:max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-12 xl:px-10">
         {/* SECTION HEADER */}
         <div ref={headerRef} className="text-center mb-12">
           <motion.div
