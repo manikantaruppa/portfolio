@@ -37,7 +37,7 @@ export function HeroSection() {
   const techPills = ["LLMs", "RAG", "Agentic AI", "Document AI", "Enterprise Systems"];
 
   return (
-    <section className="relative min-h-screen flex items-center pt-24 pb-12 overflow-hidden bg-white dark:bg-slate-950">
+    <section className="relative min-h-screen flex items-center py-12 overflow-hidden bg-white dark:bg-slate-950">
       {/* Background Elements - Subtle */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
         <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-primary/5 rounded-full blur-3xl" />
