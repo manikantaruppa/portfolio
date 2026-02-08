@@ -209,7 +209,7 @@ export function ContactSection() {
     {
       icon: <MapPin className="text-primary text-xl" />,
       label: "Location",
-      value: "Gurugram, Haryana, India",
+      value: "Hyderabad, Telangana, India",
       href: null
     }
   ];
