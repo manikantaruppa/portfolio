@@ -51,7 +51,7 @@ export function HeroSection() {
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5, ease: "easeOut" }}
-          className="flex justify-center mb-8 mt-6 lg:-mt-2 xl:-mt-4 2xl:-mt-[30px]"
+          className="flex justify-center mb-8 mt-6 lg:-mt-2 xl:-mt-3 2xl:-mt-[30px]"
         >
           <div className="inline-flex items-center gap-2 px-5 py-2.5 bg-primary/10 text-primary rounded-full text-sm font-bold backdrop-blur-sm border-2 border-primary/20">
             <Sparkles className="h-4 w-4" />
