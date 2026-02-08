@@ -44,14 +44,14 @@ export function HeroSection() {
         <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-purple-500/5 rounded-full blur-3xl" />
       </div>
 
-      <div className="relative w-full max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+      <div className="relative w-full max-w-[92%] lg:max-w-[85%] xl:max-w-7xl 2xl:max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12">
 
         {/* Welcome Badge */}
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5, ease: "easeOut" }}
-          className="flex justify-center mb-10"
+          className="flex justify-center mb-8 mt-6 lg:-mt-2 xl:-mt-3 2xl:-mt-[30px]"
         >
           <div className="inline-flex items-center gap-2 px-5 py-2.5 bg-primary/10 text-primary rounded-full text-sm font-bold backdrop-blur-sm border-2 border-primary/20">
             <Sparkles className="h-4 w-4" />
@@ -60,7 +60,7 @@ export function HeroSection() {
         </motion.div>
 
         {/* Two Column Layout */}
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-start">
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 2xl:gap-12 items-start">
 
           {/* LEFT - Text Content */}
           <motion.div
@@ -72,7 +72,7 @@ export function HeroSection() {
             {/* Top Section */}
             <div className="space-y-6">
               {/* Main Heading */}
-              <h1 className="text-6xl sm:text-7xl lg:text-[5.5rem] font-black text-slate-900 dark:text-white leading-[0.9]">
+              <h1 className="text-6xl sm:text-7xl lg:text-[5.5rem] 2xl:text-[6rem] font-black text-slate-900 dark:text-white leading-[0.9]">
                 Hi, I'm <br />
                 <span className="bg-gradient-to-r from-primary via-blue-600 to-purple-600 bg-clip-text text-transparent">
                   Manikanta
@@ -81,16 +81,16 @@ export function HeroSection() {
 
               {/* Role Title */}
               <div>
-                <p className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 dark:text-white mb-1">
+                <p className="text-2xl sm:text-3xl lg:text-4xl 2xl:text-[2.75rem] font-bold text-slate-900 dark:text-white mb-1">
                   Senior Data Scientist
                 </p>
-                <p className="text-lg sm:text-xl lg:text-2xl text-slate-600 dark:text-slate-400 font-semibold">
+                <p className="text-lg sm:text-xl lg:text-2xl 2xl:text-[1.625rem] text-slate-600 dark:text-slate-400 font-semibold">
                   GenAI Engineer • Agentic AI Specialist
                 </p>
               </div>
 
               {/* Description */}
-              <p className="text-base sm:text-lg text-slate-600 dark:text-slate-400 leading-relaxed max-w-lg">
+              <p className="text-base sm:text-lg 2xl:text-xl text-slate-600 dark:text-slate-400 leading-relaxed max-w-lg">
                 Building <span className="font-bold text-slate-900 dark:text-white">production-grade AI systems</span> that solve real business problems.
                 Specialized in <span className="font-bold text-primary">LLMs, RAG, and Agentic AI</span> for enterprise.
               </p>

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Sun, Moon, Menu, X } from "lucide-react";
+import { Sun, Moon, Menu, X, Calendar } from "lucide-react";
 import { useTheme } from "./theme-provider";
 import { Button } from "@/components/ui/button";
 
@@ -32,7 +32,7 @@ export function Navigation() {
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:block">
+          <div className="hidden md:flex items-center">
             <div className="ml-10 flex items-baseline space-x-8">
               {navItems.map((item) => (
                 <button
@@ -44,6 +44,23 @@ export function Navigation() {
                 </button>
               ))}
             </div>
+
+            {/* CTA Button - Desktop */}
+            <Button
+              asChild
+              size="sm"
+              className="ml-6 bg-primary hover:bg-primary/90 text-white font-semibold"
+            >
+              <a
+                href="https://cal.com/manikanta-ruppa-0sfuas/30min"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2"
+              >
+                <Calendar className="h-4 w-4" />
+                Schedule Demo
+              </a>
+            </Button>
           </div>
 
           {/* Theme Toggle & Mobile Menu Button */}
@@ -92,6 +109,24 @@ export function Navigation() {
                   {item.label}
                 </button>
               ))}
+
+              {/* CTA Button - Mobile */}
+              <Button
+                asChild
+                size="sm"
+                className="w-full mt-3 bg-primary hover:bg-primary/90 text-white font-semibold"
+              >
+                <a
+                  href="https://cal.com/manikanta-ruppa-0sfuas/30min"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                  className="flex items-center justify-center gap-2"
+                >
+                  <Calendar className="h-4 w-4" />
+                  Schedule Demo
+                </a>
+              </Button>
             </div>
           </div>
         )}
